@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MOTD</title>
+
+<style>
+body {
+    background: #121212;
+    color: #cccccc;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Server Title */
+.server-title {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4da6ff;
+    margin-bottom: 10px;
+}
+
+/* Section styling */
+.section {
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+    background: #1f1f1f;
+}
+
+.section-title {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4da6ff;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.section-content {
+    padding: 10px;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+/* Banner image */
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+/* Subtitle style (description) */
+.subtitle {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="server-title">
+WELCOME TO OUR SERVER ABOUT THE SOVIET METRO
+</div>
+
+<div class="subtitle"></div>
+
+<!-- Banner -->
+<div class="section banner">
+    <div class="section-title">Banner</div>
+    <div class="section-content">
+        <img src="https://i.imgur.com/NytDfPc.jpeg">
+    </div>
+</div>
+
+<!-- About -->
+<div class="section">
+    <div class="section-title">About This Server</div>
+    <div class="section-content">
+        This server represents realistic metro lines of the soviet metro.<br>
+        This server is for drivers with a professional league.<br>
+        We're using realistic sounds of Ruble Metrostroi (v. 2.0.0).
+    </div>
+</div>
+
+<!-- Rules -->
+<div class="section">
+    <div class="section-title">Rules</div>
+    <div class="section-content">
+        1. Don't attack other players for fun.<br>
+        2. Spawn at most one train within 30 seconds.<br>
+        3. Do not disturb drivers.<br>
+        4. No collisions with other drivers.<br>
+        5. No swear words over loudspeaker.
+    </div>
+</div>
+
+<!-- Reporting -->
+<div class="section">
+    <div class="section-title">Reporting Rulebreakers</div>
+    <div class="section-content">
+        • Contact an available admin on the server.<br>
+        • Use @ in chat to contact admins.<br>
+        • If no admin is online, note name + time.
+    </div>
+</div>
+
+<!-- Addons -->
+<div class="section">
+    <div class="section-title">Installed Addons</div>
+    <div class="section-content">
+        (Automatically handled by server)
+    </div>
+</div>
+
+<!-- Admins -->
+<div class="section">
+    <div class="section-title">Our Admins</div>
+    <div class="section-content">
+        superadmin<br>
+        admin
+    </div>
+</div>
+
+</body>
+</html>
